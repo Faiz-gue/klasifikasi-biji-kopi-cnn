@@ -1,0 +1,17 @@
+PENTING
+
+File ZIP ini berisi:
+- app.py
+- class_names.json
+- requirements.txt
+- README.md
+
+File model_biji_kopi.keras yang asli belum dimasukkan, karena file yang tadi ter-upload bernama model_biji_kopi (1).keras ternyata hanya berisi class_names.json, bukan model CNN.
+
+Silakan ambil ulang file model asli dari Google Colab dengan kode:
+model.save("model_biji_kopi.keras")
+from google.colab import files
+files.download("model_biji_kopi.keras")
+
+Lalu upload ke GitHub bersama file lain dengan nama:
+model_biji_kopi.keras
